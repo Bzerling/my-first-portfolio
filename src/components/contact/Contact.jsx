@@ -14,7 +14,7 @@ const Contact = () => {
             <TfiEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>google@gmail.com</h5>
-            <a href="mailto:google@gmail.com" target="_blank">
+            <a href="mailto:google@gmail.com" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
@@ -22,7 +22,7 @@ const Contact = () => {
             <SiTelegram className="contact__option-icon" />
             <h4>Telegram</h4>
             <h5>Telegram</h5>
-            <a href="https://t.me/" target="_blank">
+            <a href="https://t.me/" target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>
